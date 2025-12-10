@@ -22,11 +22,41 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: a96618526f0d62249ad000358be696a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AmbientOcclusionTexture:
+        m_Texture: {fileID: 2800000, guid: fa5c8917f83c81e40aa0aa4f963f03e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metalic:
+        m_Texture: {fileID: 2800000, guid: 2cd5f3099ae319f43b8a21ef89de051e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 1fda9a9c840fc344a8f00d141351ca56, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Roughness:
+        m_Texture: {fileID: 2800000, guid: 7f9d0cf37a195b944925b0f304226d93, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Smoothness:
+        m_Texture: {fileID: 2800000, guid: 7f9d0cf37a195b944925b0f304226d93, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AO_Intensity: 0
+    - _AmbientOcclusion: 0
+    - _AmbientOcclusionIntensity: 0
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
+    - _Metallic_Intensity: 0
+    - _Roughness_Intensity: 0
+    - _Smoothness_Intensity: 0
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
