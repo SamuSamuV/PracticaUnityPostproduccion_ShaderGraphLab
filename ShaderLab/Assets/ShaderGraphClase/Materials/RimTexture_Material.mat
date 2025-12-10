@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RimTexture_Material
+  m_Shader: {fileID: 4800000, guid: 67318e635f23eab48a702bcefda626af, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _emissionTexture:
+        m_Texture: {fileID: 2800000, guid: 18f4738e7b97247be9c82a9ac464abd7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mainTexture:
+        m_Texture: {fileID: 2800000, guid: 3b16a6bb3fb1f4496be76190ff97c981, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _normalTexture:
+        m_Texture: {fileID: 2800000, guid: 4e88f01c1b96d487da516c8c0d7b237b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _emissionIntensity: 2
+    - _metallic: 0.621
+    - _normalIntensity: 1.38
+    - _rimIntensity: 6.62
+    - _rimPower: 3.69
+    - _smoothness: 0.258
+    m_Colors:
+    - _emissionColor: {r: 1, g: 0, b: 0.06464243, a: 1}
+    - _rimColor: {r: 0, g: 0.6233463, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
