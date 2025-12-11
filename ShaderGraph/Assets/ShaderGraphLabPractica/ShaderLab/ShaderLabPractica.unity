@@ -1394,8 +1394,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1295454968}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.91556, y: 0, z: 15.63125}
+  m_LocalRotation: {x: -0, y: 0.9871873, z: -0, w: -0.15956561}
+  m_LocalPosition: {x: 2.6935396, y: 0, z: -43.28958}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1409,7 +1409,7 @@ Transform:
   - {fileID: 1737504538}
   - {fileID: 2046044419}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 198.363, z: 0}
 --- !u!1 &1306155651
 GameObject:
   m_ObjectHideFlags: 0
@@ -1423,7 +1423,7 @@ GameObject:
   - component: {fileID: 1306155654}
   - component: {fileID: 1306155653}
   m_Layer: 0
-  m_Name: Window4
+  m_Name: MagicWindow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1438,7 +1438,7 @@ Transform:
   m_GameObject: {fileID: 1306155651}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0.00000020116565, z: 0.00000023484914, w: -0.70710677}
-  m_LocalPosition: {x: 10.00556, y: 5, z: -34.07125}
+  m_LocalPosition: {x: 12.92, y: 5, z: -33.1}
   m_LocalScale: {x: 0.63761, y: 0.63761, z: 0.63761}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1730,7 +1730,7 @@ Transform:
   m_GameObject: {fileID: 1465337879}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: 0.5, z: 0}
+  m_LocalPosition: {x: -2, y: 0.5, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
