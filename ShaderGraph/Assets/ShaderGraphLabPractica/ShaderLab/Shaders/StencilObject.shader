@@ -1,4 +1,4 @@
-Shader "Custom/Stencil Standard Textured"
+Shader "Custom/StencilObject"
 {
     Properties
     {
