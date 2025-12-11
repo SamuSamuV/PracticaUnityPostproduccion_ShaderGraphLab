@@ -1,4 +1,4 @@
-Shader "Custom/ColoredShadow"
+Shader "Custom/ShadowColor"
 {
     Properties
     {

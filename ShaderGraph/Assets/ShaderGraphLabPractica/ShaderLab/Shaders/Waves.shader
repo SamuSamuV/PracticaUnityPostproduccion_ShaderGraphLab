@@ -1,4 +1,4 @@
-Shader "Custom/WavePan_VertexFragment"
+Shader "Custom/Waves"
 {
     Properties
     {

@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Waves_Material
-  m_Shader: {fileID: 4800000, guid: 4e1d698f81d33774481e6fe1df4e3a03, type: 3}
+  m_Name: Toom_Material
+  m_Shader: {fileID: 4800000, guid: 76504753c50ce1e44955b7edd437568e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -27,16 +27,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _AlbedoA:
-        m_Texture: {fileID: 2800000, guid: df7fabad2b9df614e8d6f2d2de99b8be, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _AlbedoB:
-        m_Texture: {fileID: 2800000, guid: 4265bf2fcd676ec4687eab6574e50584, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _AlbedoTex:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a96618526f0d62249ad000358be696a6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicTex:
@@ -47,6 +43,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: 5bd53a2112489b443a2caa490733be1a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _RoughnessTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -55,28 +55,22 @@ Material:
     m_Floats:
     - _AOBase: 1
     - _AOIntensity: 1
-    - _BlendAB: 0.25
+    - _Cutoff: 0
     - _EmissionIntensity: 0
-    - _HeightIntensity: 0
     - _MetallicBase: 0
     - _MetallicIntensity: 1
     - _NormalIntensity: 1
-    - _PanSpeedA: -0.5
-    - _PanSpeedB: -0.2
+    - _OutlineWidth: 0.02
+    - _RampIntensity: 0.8
     - _RimIntensity: 0.5
     - _RimPower: 2
     - _RimThreshold: 0
     - _SmoothnessBase: 0.5
     - _SmoothnessIntensity: 1
-    - _WaveAmplitude: 0.3
-    - _WaveFrequency: 0.7
-    - _WaveSpeed: 5
     m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _PanDirA: {r: 1, g: 0, b: 0, a: 0}
-    - _PanDirB: {r: -1, g: 0, b: 0, a: 0}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
-    - _WaveDirection: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
