@@ -34,7 +34,7 @@ Shader "Custom/Waves"
             #pragma target 3.0
 
             #include "UnityCG.cginc"
-            #include "Lighting.cginc"   // Necesario para unity_LightColor
+            #include "Lighting.cginc"
 
             sampler2D _AlbedoA;
             sampler2D _AlbedoB;
